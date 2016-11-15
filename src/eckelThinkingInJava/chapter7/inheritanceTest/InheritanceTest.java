@@ -1,4 +1,4 @@
-package eckelThinkingInJava.inheritanceTest;
+package eckelThinkingInJava.chapter7.inheritanceTest;
 
 public class InheritanceTest  {
     public static void main(String[] args) {

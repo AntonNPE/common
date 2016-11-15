@@ -1,4 +1,4 @@
-package eckelThinkingInJava.FinalTest;
+package eckelThinkingInJava.chapter7.finalTest;
 
 import java.util.Random;
 
