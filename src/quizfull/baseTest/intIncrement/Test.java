@@ -1,4 +1,4 @@
-package quizfull.intIncrement;
+package quizfull.baseTest.intIncrement;
 
 
 public class Test extends Test1 {

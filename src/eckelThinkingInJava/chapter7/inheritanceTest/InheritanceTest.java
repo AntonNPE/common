@@ -7,6 +7,7 @@ public class InheritanceTest  {
         B b = new B();
         System.out.println(a.stringPrint(" - a cast"));
         System.out.println(b.stringPrint(" - b cast"));
+
     }
 }
 
