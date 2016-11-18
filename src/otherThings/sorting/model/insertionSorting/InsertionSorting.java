@@ -1,4 +1,4 @@
-package otherThings.sorting.insertionSorting;
+package otherThings.sorting.model.insertionSorting;
 
 public class InsertionSorting {
 

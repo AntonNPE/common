@@ -1,20 +1,32 @@
-package otherThings.sorting.quickSorting;
+package otherThings.sorting.model.quickSorting;
 
-import java.util.Random;
+import otherThings.sorting.util.ArrayCreator;
 
 public class QuiskSort {
 
-    static int [] array;
+    private int [] array;
+    private int ARRAY_LENGTH;
+    public QuiskSort(int[] array) {
+        this.array = array;
+    }
 
-    public static void doSort(int [] extArray){
+    public QuiskSort(int ARRAY_LENGTH) {
+        this.ARRAY_LENGTH = ARRAY_LENGTH;
+        array = ArrayCreator.makeArray(ARRAY_LENGTH);
+    }
+
+    public int[] getArray() {
+        return array;
+    }
+
+    public  void doSort(){
         int startIndex = 0;
-        int endIndex = extArray.length-1;
-        array = extArray;
+        int endIndex = array.length-1;
         quickSort(startIndex,endIndex);
 
     }
 
-    public static void quickSort(int start, int end ) {
+    public  void quickSort(int start, int end ) {
         if (start >= end) {
             return;
         }

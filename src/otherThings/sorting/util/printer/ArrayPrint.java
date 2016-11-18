@@ -1,6 +1,6 @@
-package otherThings.sorting.printer;
+package otherThings.sorting.util.printer;
 
-public class ArrayPring {
+public class ArrayPrint {
 
     public static void printArray(int[] array) {
 
