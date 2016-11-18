@@ -27,27 +27,29 @@ public class BinarySearching {
 
     public int outerBinarySearching() {
 
-        int lowest = 0;
-        int highest = array.length-1;
+
         QuiskSort quiskSort = new QuiskSort(array);
         quiskSort.doSort();
-        return innerBinarySearching(lowest, highest);
+        return innerBinarySearching();
 
     }
 
-    private int innerBinarySearching(int lowest, int highest) {
+    private int innerBinarySearching() {
 
-        int mid = lowest + (highest - lowest) / 2;
-        if (lowest == highest && key !=array[mid]){
+        int lowest = 0;
+        int highest = arrayLength - 1;
+        while (lowest <= highest) {
+            int mid = (lowest + highest) >>> 1;
+            if (key == array[mid]) {
+                return mid;
+            } else if (key < array[mid]) {
+                highest = mid-1;
+            } else if (key > array[mid ]) {
+                lowest =mid+1;
+            }
 
-            return -11111111;
         }
-        if (key < array[mid]) {
-            return innerBinarySearching(lowest, mid - 1);
-        } else if (key > array[mid]) {
-            return innerBinarySearching(mid + 1, highest);
-        }  return mid;
+        return -111111;
+
     }
-
-
 }
