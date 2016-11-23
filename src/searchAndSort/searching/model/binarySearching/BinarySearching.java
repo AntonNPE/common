@@ -1,7 +1,7 @@
-package otherThings.searching.model.binarySearching;
+package searchAndSort.searching.model.binarySearching;
 
-import otherThings.sorting.model.quickSorting.QuiskSort;
-import otherThings.sorting.util.ArrayCreator;
+import searchAndSort.sorting.model.quickSorting.QuiskSort;
+import searchAndSort.sorting.util.ArrayCreator;
 
 public class BinarySearching {
 

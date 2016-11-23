@@ -1,7 +1,6 @@
-package SierraBeits.ch16.songList;
+package sierraBeits.ch16.songList;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 

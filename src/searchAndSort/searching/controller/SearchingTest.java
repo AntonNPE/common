@@ -1,6 +1,6 @@
-package otherThings.searching.controller;
+package searchAndSort.searching.controller;
 
-import otherThings.searching.model.binarySearching.BinarySearching;
+import searchAndSort.searching.model.binarySearching.BinarySearching;
 
 public class SearchingTest {
 

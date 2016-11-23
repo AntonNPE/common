@@ -1,4 +1,4 @@
-package SierraBeits.ch15.counter;
+package sierraBeits.ch15.counter;
 
 public class Unit  {
 

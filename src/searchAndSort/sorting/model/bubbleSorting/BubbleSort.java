@@ -1,6 +1,6 @@
-package otherThings.sorting.model.bubbleSorting;
+package searchAndSort.sorting.model.bubbleSorting;
 
-import otherThings.sorting.util.ArrayCreator;
+import searchAndSort.sorting.util.ArrayCreator;
 
 public class BubbleSort {
 

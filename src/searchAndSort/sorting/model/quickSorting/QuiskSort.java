@@ -1,6 +1,6 @@
-package otherThings.sorting.model.quickSorting;
+package searchAndSort.sorting.model.quickSorting;
 
-import otherThings.sorting.util.ArrayCreator;
+import searchAndSort.sorting.util.ArrayCreator;
 
 public class QuiskSort {
 

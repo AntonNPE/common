@@ -1,4 +1,4 @@
-package SierraBeits.ch9.fiveMinutesStory;
+package sierraBeits.ch9.fiveMinutesStory;
 
 import java.util.ArrayList;
 

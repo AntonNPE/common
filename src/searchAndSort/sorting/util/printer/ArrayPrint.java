@@ -1,4 +1,4 @@
-package otherThings.sorting.util.printer;
+package searchAndSort.sorting.util.printer;
 
 public class ArrayPrint {
 

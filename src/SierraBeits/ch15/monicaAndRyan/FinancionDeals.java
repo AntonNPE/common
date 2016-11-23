@@ -1,4 +1,4 @@
-package SierraBeits.ch15.monicaAndRyan;
+package sierraBeits.ch15.monicaAndRyan;
 
 public class FinancionDeals implements Runnable {
 

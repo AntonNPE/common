@@ -1,7 +1,7 @@
-package SierraBeits.ch16.songList;
+package sierraBeits.ch16.songList;
 
 
-import SierraBeits.ch16.songList.entity.Song;
+import sierraBeits.ch16.songList.entity.Song;
 
 import java.util.ArrayList;
 

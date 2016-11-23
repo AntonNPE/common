@@ -1,4 +1,4 @@
-package SierraBeits.ch10.FullMoonParty;
+package sierraBeits.ch10.FullMoonParty;
 
 /**
  * Created by User on 15.10.2016.

@@ -1,4 +1,4 @@
-package SierraBeits.ch16.genericsExp;
+package sierraBeits.ch16.genericsExp;
 
 import java.util.ArrayList;
 import java.util.List;

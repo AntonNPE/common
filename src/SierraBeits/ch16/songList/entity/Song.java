@@ -1,4 +1,4 @@
-package SierraBeits.ch16.songList.entity;
+package sierraBeits.ch16.songList.entity;
 
 public class Song implements Comparable <Song> {
 
