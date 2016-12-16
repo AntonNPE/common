@@ -1,4 +1,4 @@
-package commonPackage.arraysMethodsTest;
+package commonPackage.array.arraysMethodsTest;
 
 
 import searchAndSort.sorting.util.printer.ArrayPrint;
