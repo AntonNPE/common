@@ -1,4 +1,4 @@
-package commonPackage.enumTest;
+package commonPackage.enums.enumTest;
 
 import java.util.Arrays;
 

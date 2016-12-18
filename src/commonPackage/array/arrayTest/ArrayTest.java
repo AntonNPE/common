@@ -1,12 +1,7 @@
-package commonPackage.arrayTest;
+package commonPackage.array.arrayTest;
 
-import searchAndSort.sorting.util.printer.ArrayPrint;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 public class ArrayTest {
 
