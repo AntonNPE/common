@@ -9,8 +9,8 @@ public class RegExTest {
 
     public static void main(String[] args) {
 
-        simpleRegExTest("w4g tr8g9 gtjwbg940j 5tkg34", "[a-h]?");
-
+        simpleRegExTest(args[0],args[1]);
+//        System.out.println("Hello!");
     }
 
     public static void simpleRegExTest (String sourceData, String delimiter){
