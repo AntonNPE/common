@@ -4,19 +4,11 @@ package golovach.lecture8.part4.customRabbit;
 public class MyRunnable implements Runnable {
 
     static String spaces;
-
-
     static int rabbitsCount;
-
-
-
     public MyRunnable() {
     }
-
     @Override
     public void run() {
-
-
         System.out.println(another(rabbitsCount) + "The another rabbit born" + rabbitsCount);
         Thread thread = Thread.currentThread();
         try {
@@ -35,7 +27,6 @@ public class MyRunnable implements Runnable {
     public static String another(int rabbitsCount) {
 
         String string = "";
-
         for (int i = 0; i < rabbitsCount; i++) {
             string += " ";
         }
