@@ -11,13 +11,13 @@ public class Consumer implements Runnable {
         this.table = table;
         this.sleepTIme = sleepTIme;
     }
-
     @Override
     public void run() {
         for (int i = 0; i < 100000; i++) {
             try {
-                int  result = table.get();
-                System.out.println(Thread.currentThread().getName()+" - " + result);
+                table.get();
+                System.out.println(Thread.currentThread().getName()+" - " + table.getCount());
+
             } catch (InterruptedException ex) {
                 ex.printStackTrace();
             }

@@ -3,7 +3,7 @@ package golovach.lecture9.part3.ProducerAndConsumer;
 
 public class Producer implements Runnable {
     private final Table table;
-    private static Integer count = 0;
+
     private final int sleepTime;
 
     public Producer(Table table, int sleepTime) {
@@ -14,9 +14,8 @@ public class Producer implements Runnable {
     public void run() {
         for (int i = 0; i < 1000000; i++) {
             try {
-                table.put(count);
-                System.out.println(Thread.currentThread().getName()+" - "+ count);
-                count++;
+                table.put();
+                System.out.println(Thread.currentThread().getName()+" - "+table.getCount());
                 Thread.sleep(sleepTime);
             } catch (InterruptedException ex) {
                 ex.printStackTrace();

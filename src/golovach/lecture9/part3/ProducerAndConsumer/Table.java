@@ -3,22 +3,26 @@ package golovach.lecture9.part3.ProducerAndConsumer;
 
 public class Table {
 
-    private Integer entity;
-    public synchronized void put(Integer entity) throws InterruptedException {
-        while (this.entity != null) {
+    private static boolean entity;
+    private static int entityCounter;
+    public synchronized void put() throws InterruptedException {
+        while (entity) {
             this.wait();
         }
-        this.entity = entity;
+        entity = true;
+        this.notify();
+        entityCounter++;
+    }
+
+    public synchronized void get() throws InterruptedException {
+        while (!entity) {
+            this.wait();
+        }
+        entity = false;
         this.notify();
     }
 
-    public synchronized Integer get() throws InterruptedException {
-        while (this.entity == null) {
-            this.wait();
-        }
-        int result = this.entity;
-        this.entity = null;
-        this.notify();
-        return result;
+    public int getCount (){
+        return entityCounter;
     }
 }
