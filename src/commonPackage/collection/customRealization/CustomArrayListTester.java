@@ -1,6 +1,4 @@
-package commonPackage.collection.customRalization;
-
-import java.util.Random;
+package commonPackage.collection.customRealization;
 
 public class CustomArrayListTester {
 

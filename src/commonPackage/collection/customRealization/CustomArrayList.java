@@ -1,8 +1,6 @@
-package commonPackage.collection.customRalization;
+package commonPackage.collection.customRealization;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Objects;
 
 public class CustomArrayList {
 
