@@ -1,6 +1,6 @@
 package searchAndSort.searching.model.binarySearching;
 
-import searchAndSort.sorting.model.quickSorting.QuiskSort;
+import searchAndSort.sorting.model.quickSorting.QuickSort;
 import searchAndSort.sorting.util.ArrayCreator;
 
 public class BinarySearching {
@@ -28,8 +28,8 @@ public class BinarySearching {
     public int outerBinarySearching() {
 
 
-        QuiskSort quiskSort = new QuiskSort(array);
-        quiskSort.doSort();
+        QuickSort quickSort = new QuickSort(array);
+        quickSort.doSort();
         return innerBinarySearching();
 
     }

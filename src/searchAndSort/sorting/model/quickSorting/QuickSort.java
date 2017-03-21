@@ -2,15 +2,15 @@ package searchAndSort.sorting.model.quickSorting;
 
 import searchAndSort.sorting.util.ArrayCreator;
 
-public class QuiskSort {
+public class QuickSort {
 
     private int [] array;
     private int ARRAY_LENGTH;
-    public QuiskSort(int[] array) {
+    public QuickSort(int[] array) {
         this.array = array;
     }
 
-    public QuiskSort(int ARRAY_LENGTH) {
+    public QuickSort(int ARRAY_LENGTH) {
         this.ARRAY_LENGTH = ARRAY_LENGTH;
         array = ArrayCreator.makeArray(ARRAY_LENGTH);
     }
@@ -35,7 +35,6 @@ public class QuiskSort {
         int m = s - (s - e) / 2;
 
         while (s < e) {
-
             while (s < m && (array[s] <= array[m])) {
                 s++;
             }
@@ -53,13 +52,10 @@ public class QuiskSort {
                 } else if (e == m) {
                     m = s;
                 }
-
             }
-
         }
         quickSort(start,m);
         quickSort(m+1,end);
-
     }
 
 
