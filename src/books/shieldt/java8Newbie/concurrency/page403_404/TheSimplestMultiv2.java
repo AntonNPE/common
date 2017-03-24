@@ -1,4 +1,4 @@
-package books.shieldt.concurrency.page403_404;
+package books.shieldt.java8Newbie.concurrency.page403_404;
 
 public class TheSimplestMultiv2 {
 

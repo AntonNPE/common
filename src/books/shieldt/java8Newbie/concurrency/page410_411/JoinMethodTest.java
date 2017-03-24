@@ -1,4 +1,4 @@
-package books.shieldt.concurrency.page410_411;
+package books.shieldt.java8Newbie.concurrency.page410_411;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package books.shieldt.concurrency.page405_406;
+package books.shieldt.java8Newbie.concurrency.page405_406;
 
 public class Exercise11_1 {
 

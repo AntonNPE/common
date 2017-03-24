@@ -1,6 +1,7 @@
 package golovach.lecture9.part3.ProducerAndConsumer;
 
 
+import java.util.concurrent.TimeUnit;
 
 public class Consumer implements Runnable {
 
@@ -15,8 +16,10 @@ public class Consumer implements Runnable {
     public void run() {
         for (int i = 0; i < 100000; i++) {
             try {
+
                 table.get();
                 System.out.println(Thread.currentThread().getName()+" - " + table.getCount());
+                Thread.sleep(sleepTIme);
 
             } catch (InterruptedException ex) {
                 ex.printStackTrace();
