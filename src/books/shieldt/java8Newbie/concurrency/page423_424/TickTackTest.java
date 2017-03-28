@@ -3,7 +3,7 @@ package books.shieldt.java8Newbie.concurrency.page423_424;
 
 import java.util.concurrent.TimeUnit;
 
-public class TickTackTest {
+public class  TickTackTest {
 
     public static void main(String[] args) {
 
