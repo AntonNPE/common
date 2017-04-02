@@ -1,12 +1,11 @@
-package books.eckel.concurrency.blockingQueueTest;
+package books.eckel.concurrency.blockingQueueProducerConsumer;
 
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 public class QReader implements Runnable {
 
-    private BlockingQueue <Integer> storage;
+    private final BlockingQueue <Integer> storage;
     private static Integer readCount;
     private List<Integer> list;
 
@@ -23,8 +22,8 @@ public class QReader implements Runnable {
     public void run() {
         try {
 
-            while (true){
-                TimeUnit.MILLISECONDS.sleep(1);
+            while (storage.size()>0){
+
                 list.add(storage.take());
 
             }

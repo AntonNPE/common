@@ -1,4 +1,4 @@
-package books.eckel.concurrency.blockingQueueTest;
+package books.eckel.concurrency.blockingQueueProducerConsumer;
 
 import java.util.concurrent.BlockingQueue;
 
