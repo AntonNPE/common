@@ -17,7 +17,7 @@ public class NumberFormatClassTest {
 
     public static void numberFormatTest(){
 
-        System.out.println("Number Format Test ");
+        System.out.println("Number Format AccountTest ");
         NumberFormat format = NumberFormat.getCurrencyInstance();
         System.out.println(format.format(12345.5));
 
