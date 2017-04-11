@@ -1,6 +1,6 @@
-package forta.task2.filesCounter.v1WithFileCountRange;
+package forta.task2.filesSearcher.v1WithFileCountRange;
 
-import forta.task2.filesCounter.util.validataion.SearchingValidator;
+import forta.task2.filesSearcher.util.validataion.SearchingValidator;
 
 import java.io.File;
 import java.io.FileNotFoundException;

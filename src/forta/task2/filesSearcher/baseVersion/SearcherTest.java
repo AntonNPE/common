@@ -1,6 +1,6 @@
-package forta.task2.filesCounter.baseVersion;
+package forta.task2.filesSearcher.baseVersion;
 
-import forta.task2.filesCounter.util.filters.NameLengthFilter;
+import forta.task2.filesSearcher.util.filters.NameLengthFilter;
 
 public class SearcherTest {
 

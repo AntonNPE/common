@@ -1,11 +1,11 @@
-package forta.task2.filesCounter.v1WithFileCountRange;
+package forta.task2.filesSearcher.v1WithFileCountRange;
 
 import java.io.File;
 import java.util.List;
 
 public class FileCountRangeTester  {
 /*Test for FileCountRangeSearcher. This class has methods for counting all  files which are not a directory.
-  Also this class contains method which create a different value of directories.*/
+  Also this class contains method which create a different values of directories.*/
     public static void main(String[] args) {
         String path = "D://l";
         int minAmount = 3;

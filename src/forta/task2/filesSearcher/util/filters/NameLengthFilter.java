@@ -1,4 +1,4 @@
-package forta.task2.filesCounter.util.filters;
+package forta.task2.filesSearcher.util.filters;
 
 import java.io.File;
 import java.io.FilenameFilter;

@@ -1,4 +1,4 @@
-package forta.task2.filesCounter.baseVersion;
+package forta.task2.filesSearcher.baseVersion;
 
 import java.io.File;
 import java.io.FilenameFilter;
